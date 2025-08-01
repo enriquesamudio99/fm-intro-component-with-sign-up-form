@@ -27,7 +27,7 @@
             </div>
           </div>
           <div class="hero__right">
-            <form action="#" class="form">
+            <form action="#" class="form" id="form">
               <div class="form__container">
                 <div class="form__offer">
                   <p class="form__offer-text"><span class="form__offer-span">Try it free 7 days</span> then $20/mo. thereafter</p>
@@ -36,15 +36,19 @@
                   <div class="form__groups">
                     <div class="form__group">
                       <input type="text" id="first-name" class="form__input" placeholder="First Name">
+                      <p class="form__error"></p>
                     </div>
                     <div class="form__group">
                       <input type="text" id="last-name" class="form__input" placeholder="Last Name">
+                      <p class="form__error"></p>
                     </div>
                     <div class="form__group">
-                      <input type="email" id="email" class="form__input" placeholder="Email Address">
+                      <input type="text" id="email" class="form__input" placeholder="Email Address">
+                      <p class="form__error"></p>
                     </div>
                     <div class="form__group">
                       <input type="password" id="password" class="form__input" placeholder="Password">
+                      <p class="form__error"></p>
                     </div>
                   </div>
                   <button class="form__button">Claim your free trial</button>
@@ -58,6 +62,7 @@
     </div>
   </main>
 
+  <script src="./assets/scripts/app.js"></script>
 </body>
 
 </html>
